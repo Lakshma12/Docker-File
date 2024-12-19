@@ -1,0 +1,6 @@
+sudo apt update -y
+sudo apt install maven -y
+mvn -version
+
+BUILD THE CODE WITH MAVEN
+mvn clean install -DskipTests
